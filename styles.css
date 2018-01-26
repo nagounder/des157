@@ -1,0 +1,166 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/****************** End CSS RESET *****************/
+
+body {
+  font-family: 'Ubuntu Condensed', sans-serif;
+  color: black;
+  background: #FFC300;
+}
+
+.container {
+  width: 1020px;
+  margin: auto;
+}
+
+#quote {
+  color: white;
+  font-family: 'Lobster', cursive;
+  font-size: 450%;
+  width: 600px;
+  margin-top: 50px;
+}
+
+#quote p {
+  font-size: 90%;
+  margin-top: 40px;
+  margin-left: 200px;
+}
+
+header {
+  margin-bottom: 20px;
+  background-size: 1020px 600px;
+}
+
+header h1 {
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 150px;
+  margin-top: 100px;
+  margin-bottom: 80px;
+  text-align: center;
+  color: white;
+}
+
+aside {
+  float: right;
+  width: 340px;
+}
+
+/*********** Typography ************/
+
+h1 {
+  font-weight: bold;
+}
+
+p {
+  margin-bottom: 16px;
+  line-height: 22px;
+}
+
+/********* Lists ********/
+
+#content {
+  width: 1020px;
+  margin-left: -5px;
+  margin-right: 20px;
+  margin-top: 10px;
+  height: 20em;
+  margin-left: 150px;
+}
+
+div {
+  display: block;
+}
+
+section {
+  box-sizing: border-box;
+  padding-top: 10px;
+  float: left;
+  width: 33.33%;
+  height: 100%;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  display: block;
+  font-size: 80px;
+  color: white;
+}
+
+#mySketch {
+  margin-top: 150px;
+  margin-left: 110px;
+}
+
+#content ol li {
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+#content ul li {
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+footer {
+  margin-top: 50px;
+  clear: both;
+  color: white;
+  margin-left: 350px;
+}
+
+#material {
+  margin-left: 300px;
+}
+
+#analysis {
+  color: white;
+}
+
+#analysis p img {
+  margin-left: 400px;
+}
+
+#source {
+  margin-left: 450px;
+  font-size: 10px;
+}

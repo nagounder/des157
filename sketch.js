@@ -1,10 +1,11 @@
 function setup() {
-  createCanvas(600, 300);
-  background('#FFC300');
+  var myCanvas = createCanvas(800, 250);
+  myCanvas.parent('mySketch');
+  background(255);
 }
 
 function draw() {
-   stroke(255);
+   stroke('#FFC300');
    strokeWeight(5);
    smooth();
 
@@ -15,6 +16,6 @@ function draw() {
 
   function keyPressed() {
     if (keyCode == BACKSPACE) {
-      background('#FFC300');
+      background(255);
     }
   }
