@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+ <html>
+ <head>
+   <meta charset="utf-8" />
+   <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.16/p5.js"></script>
+   <link href="styles.css" rel="stylesheet">
+   <title>Nandhini's Madlibs</title>
+ </head>
+
+ <body>
+
+   <div id="container">
+     <img src="images/davis.jpg" alt="davis_silo" height="400" style="width:100%;">
+     <div class="centered">Davis Mad Libs</div>
+   </div>
+
+<div id="content">
+    <div id="questions">
+      <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+      <ul>
+        <li>What time is? <input type="text" id="time" name="blank">
+        <li>Grub Time! What's you favorite food spot in downtown? <input type="text" id="restaurant" name="blank">
+         <li>Building with the worst bathrooms on campus <input type="text" id="building" name="blank">
+        <li>Pick a number, any number... <input type="text" id="number1" name="blank">
+        <li>Guilty pleasure TV show ;) <input type="text" id="TVshow" name="blank">
+        <li>A Verb <input type="text" id="verb1" name="blank">
+        <li>Another Verb <input type="text" id="verb2" name="blank">
+        <li>How many times have you ditched class? <input type="text" id="number2" name="blank">
+        <li>A noun of your choice <input type="text" id="noun" name="blank">
+    </ul>
+
+    <div id="button">
+         <button id="lib-button">Lib it!</button>
+    </div>
+      </form>
+
+      </div>
+
+ <div id="stories">
+   <p id="story1"></p>
+     <p id="picture1"></p>
+   <p id="story2"></p>
+     <p id="picture2"></p>
+   <p id="story3"></p>
+</div>
+
+  <div id="ending">
+    <p id="story4"></p>
+  </div>
+
+ </div>
+
+
+ <footer>
+   <p><a href="https://validator.w3.org/check?uri=referer">Valid HTML 5</a> |
+     <a href="https://jigsaw.w3.org/css-validator/check/referer">Valid CSS</a> |
+     <a href="mailto:&#110;&#097;&#103;&#111;&#117;&#110;&#100;&#101;&#114;&#064;&#117;&#099;&#100;&#097;&#118;&#105;&#115;&#046;&#101;&#100;&#117;">&#110;&#097;&#103;&#111;&#117;&#110;&#100;&#101;&#114;&#064;&#117;&#099;&#100;&#097;&#118;&#105;&#115;&#046;&#101;&#100;&#117;</a></p>
+ </footer>
+
+   <script src="script.js"></script>
+ </body>
+ </html>
