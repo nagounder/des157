@@ -1,0 +1,166 @@
+/************* CSS RESET ***************/
+
+/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+
+img { max-width: 100%; }
+
+* { box-sizing: border-box;}
+/************* END CSS RESET ***************/
+
+/************************ Layout Styles ***********************/
+
+body {
+	font-family: 'Quicksand', sans-serif;
+	color:white;
+}
+
+.container {											/****** layout styling for content container ******/
+	width:1020px;
+	margin:auto;
+	overflow:hidden;
+	padding:30px 0;
+}
+
+#middle { background:#F17C73; }
+#bottom { background:#F17C73; }
+
+.column {												/****** layout styling for content columns ******/
+	width:33.3333%;
+	float:left;
+	padding:0 15px;
+}
+
+article {										/****** layout styling for text and footer ******/
+	margin-bottom:20px;
+	overflow:hidden;
+}
+
+footer {
+	min-height:50px;
+	padding:0 15px;
+	text-align: center;
+	color: white;
+}
+
+#second img {										/****** layout styling for images and text ******/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+		margin-top: 20px;
+}
+
+#third {
+margin-top: 20px;
+}
+
+#third p {
+	margin-top: 20px;
+}
+
+.big {
+	padding-top: 20px;
+}
+
+/******* Typography Rules ********/
+
+header {										/****** typography for header text ******/
+	text-align: center;
+}
+
+h1 {												/****** typography for h1 brackets ******/
+	margin-bottom:.5em;
+  font-weight:bold;
+  font-size:200%;
+	color: grey;
+}
+
+
+p {													/****** typography for paragraphs ******/
+	font-size:14px;
+	margin-bottom:1em;
+	line-height:1.3em;
+}
+
+footer a {								/****** typography for footer links ******/
+	text-decoration: none;
+	color: white;
+}
+
+.small {								/****** typography for text class small ******/
+	display: none;
+	margin-top: 20px;
+}
+
+#myself {
+padding-top: 20px;
+}
+
+#myself:hover {
+transform: translateY(-25px);
+}
+
+#second img:hover {
+    transform: rotate(30deg);
+}
+
+#second img {
+	padding: 5px;
+}
+
+/********** last column styling ************/
+
+.column:last-of-type article img {		/****** styling the images in the last column ******/
+	float:left;
+	margin-right:7px;
+}
+
+.column:last-of-type article p {		/****** styling the text in the last column ******/
+	float:left;
+	width:80%;
+}
+
+/********** Media Queries for Responsive Layout ************/
+
+@media only screen and (max-width: 1020px) {     /****** Mobile Styling ******/
+
+	.container { width: 100%; }
+
+	.small {
+		display: none;
+	}
+
+}
+
+@media only screen and (max-width: 768px) {    /****** Desktop Styling ******/
+
+	.column:first-of-type {
+		width: 100%;
+		padding: 0;
+	}
+
+	.column:last-of-type article p {			/****** media queries to change last column ******/
+		float: none;
+		width: 100%;
+	}
+
+	.column {
+		float: none;
+		width: 100%;
+	}
+
+	.column:first-of-type article {
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+
+	.small {										/****** media queries to change display of text ******/
+		display: block;
+	}
+
+	.big {
+		display: none;
+	}
+
+}
