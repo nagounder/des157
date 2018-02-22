@@ -1,0 +1,38 @@
+/********************************** Content Styles *****************************/
+
+body { 								                   /****** typography for general content ******/
+  font-family: 'Quicksand', sans-serif;
+  background-color: #77B2AB;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+div{
+  margin-left: auto;
+  margin-right: auto;
+  width:45%;
+
+  margin-top: 20px;
+}
+
+p {								                         /****** typography for paragraphs ******/
+  color: white;
+  margin: auto;
+  width: 60%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/********************************** Footer Styles *****************************/
+
+footer {
+text-align: center;
+}
+
+footer a {								/****** typography for footer links ******/
+	text-decoration: none;
+	color: white;
+}
