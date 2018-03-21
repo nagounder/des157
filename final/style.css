@@ -20,48 +20,60 @@
 }
 
 /* The Modal (background) */
+
 .modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
 }
 
 /* Modal Content/Box */
+
 .modal-content {
-    background-color: #fefefe;
-    margin: 15% auto; /* 15% from the top and centered */
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen size */
+  background-color: #fefefe;
+  margin: 15% auto;
+  /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  /* Could be more or less, depending on screen size */
 }
 
 /* The Close Button */
+
 .close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
 }
 
-.close:hover,
-.close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
+.close:hover, .close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 #mapid {
-    height: 500px;
-    width: 700px;
-    margin: auto;
-    margin-top: 2%
+  height: 500px;
+  width: 700px;
+  margin: auto;
+  margin-top: 2%
 }
 
 #placeholder {
@@ -128,21 +140,6 @@ figure {
   width: 100%;
 }
 
-::-webkit-selection {
-  color: #fff;
-  background: #da1212;
-}
-
-::-moz-selection {
-  color: #fff;
-  background: #da1212;
-}
-
-::selection {
-  color: #fff;
-  background: #da1212;
-}
-
 #fh5co-page {
   width: 100%;
   overflow: hidden;
@@ -157,9 +154,6 @@ figure {
   bottom: 0;
   top: 0;
   left: 0;
-  overflow-y: scroll;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
   transition: 0.5s;
 }
 
@@ -176,11 +170,6 @@ figure {
 @media screen and (max-width: 768px) {
   #fh5co-aside {
     width: 270px;
-    -moz-transform: translateX(-270px);
-    -webkit-transform: translateX(-270px);
-    -ms-transform: translateX(-270px);
-    -o-transform: translateX(-270px);
-    transform: translateX(-270px);
   }
 }
 
@@ -214,8 +203,6 @@ figure {
   font-size: 15px;
   font-weight: 300;
   position: relative;
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
   transition: 0.3s;
   padding: 10px 10px;
   letter-spacing: .2em;
@@ -231,16 +218,6 @@ figure {
   right: 10px;
   background-color: #da1212;
   visibility: hidden;
-  -webkit-transform: scaleX(0);
-  -moz-transform: scaleX(0);
-  -ms-transform: scaleX(0);
-  -o-transform: scaleX(0);
-  transform: scaleX(0);
-  -webkit-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  -moz-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  -ms-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  -o-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 #fh5co-aside #fh5co-main-menu ul li a:hover {
@@ -250,11 +227,6 @@ figure {
 
 #fh5co-aside #fh5co-main-menu ul li a:hover:after {
   visibility: visible;
-  -webkit-transform: scaleX(1);
-  -moz-transform: scaleX(1);
-  -ms-transform: scaleX(1);
-  -o-transform: scaleX(1);
-  transform: scaleX(1);
 }
 
 #fh5co-aside #fh5co-main-menu ul li.fh5co-active a {
@@ -263,11 +235,6 @@ figure {
 
 #fh5co-aside #fh5co-main-menu ul li.fh5co-active a:after {
   visibility: visible;
-  -webkit-transform: scaleX(1);
-  -moz-transform: scaleX(1);
-  -ms-transform: scaleX(1);
-  -o-transform: scaleX(1);
-  transform: scaleX(1);
 }
 
 #fh5co-aside .fh5co-footer {
@@ -318,9 +285,6 @@ figure {
 #fh5co-main {
   width: 85%;
   float: right;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
 }
 
 @media screen and (max-width: 1200px) {
@@ -354,24 +318,11 @@ body.offcanvas {
 }
 
 body.offcanvas #fh5co-aside {
-  -moz-transform: translateX(0);
-  -webkit-transform: translateX(0);
-  -ms-transform: translateX(0);
-  -o-transform: translateX(0);
-  transform: translateX(0);
-  width: 270px;
-  background: #fff;
-  z-index: 999;
   position: fixed;
 }
 
 body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   top: 0;
-  -moz-transform: translateX(270px);
-  -webkit-transform: translateX(270px);
-  -ms-transform: translateX(270px);
-  -o-transform: translateX(270px);
-  transform: translateX(270px);
 }
 
 .work-item {
@@ -477,9 +428,6 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   max-width: inherit;
   width: 90px;
   margin: 0 auto;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
   border-radius: 50%;
 }
 
@@ -551,14 +499,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 }
 
 .fh5co-cards .fh5co-flex-wrap {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
   display: flex;
-  flex-wrap: wrap;
-  -webkit-flex-wrap: wrap;
-  -moz-flex-wrap: wrap;
 }
 
 .fh5co-cards .fh5co-flex-wrap>div {
@@ -595,7 +536,6 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   letter-spacing: .2em;
   padding: 4px 8px;
   background: #ebebeb;
-  display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
   *display: inline;
@@ -656,7 +596,6 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   padding: 0;
   margin: 0;
   list-style: none;
-  display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
   *display: inline;
@@ -666,13 +605,9 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   font-size: 22px;
   color: #000;
   padding: 10px;
-  display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
   *display: inline;
-  -webkit-border-radius: 7px;
-  -moz-border-radius: 7px;
-  -ms-border-radius: 7px;
   border-radius: 7px;
 }
 
@@ -840,12 +775,6 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   font-family: "Roboto", Arial, sans-serif;
   font-size: 18px;
   font-weight: 400;
-  -webkit-border-radius: 0px;
-  -moz-border-radius: 0px;
-  -ms-border-radius: 0px;
-  border-radius: 0px;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
   transition: 0.5s;
   padding: 8px 20px !important;
 }
@@ -981,9 +910,6 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   background: none;
   border: 2px solid gray;
   font-size: 16px;
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
 }
 
 .btn-outline:hover, .btn-outline:focus, .btn-outline:active {
@@ -1000,9 +926,6 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   height: 54px;
   font-size: 18px;
   font-weight: 300;
-  -webkit-border-radius: 0px;
-  -moz-border-radius: 0px;
-  -ms-border-radius: 0px;
   border-radius: 0px;
 }
 
@@ -1036,7 +959,6 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 
 .fh5co-nav-toggle i {
   position: relative;
-  display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
   *display: inline;
@@ -1057,9 +979,6 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   background: #000;
   position: absolute;
   left: 0;
-  -webkit-transition: 0.2s;
-  -o-transition: 0.2s;
-  transition: 0.2s;
 }
 
 .fh5co-nav-toggle.dark i {
@@ -1071,9 +990,6 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 
 .fh5co-nav-toggle.dark i::before, .fh5co-nav-toggle.dark i::after {
   background: #000;
-  -webkit-transition: 0.2s;
-  -o-transition: 0.2s;
-  transition: 0.2s;
 }
 
 .fh5co-nav-toggle i::before {
@@ -1098,20 +1014,10 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 
 .fh5co-nav-toggle.active i::before {
   top: 0;
-  -webkit-transform: rotateZ(45deg);
-  -moz-transform: rotateZ(45deg);
-  -ms-transform: rotateZ(45deg);
-  -o-transform: rotateZ(45deg);
-  transform: rotateZ(45deg);
 }
 
 .fh5co-nav-toggle.active i::after {
   bottom: 0;
-  -webkit-transform: rotateZ(-45deg);
-  -moz-transform: rotateZ(-45deg);
-  -ms-transform: rotateZ(-45deg);
-  -o-transform: rotateZ(-45deg);
-  transform: rotateZ(-45deg);
 }
 
 .fh5co-nav-toggle {
@@ -1123,9 +1029,6 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   opacity: 1;
   visibility: hidden;
   padding: 20px;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
 }
 
 @media screen and (max-width: 768px) {
